@@ -33,6 +33,12 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# adding Bootstrap 
+gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
+# Bootstrap JavaScript depends on jQuery. If you're using Rails 5.1+,
+# add the jquery-rails gem to your Gemfile:
+gem 'jquery-rails'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

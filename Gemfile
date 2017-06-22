@@ -38,6 +38,7 @@ gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 # Bootstrap JavaScript depends on jQuery. If you're using Rails 5.1+,
 # add the jquery-rails gem to your Gemfile:
 gem 'jquery-rails'
+gem 'devise'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

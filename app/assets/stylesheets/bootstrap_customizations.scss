@@ -54,7 +54,7 @@ $border-width: 1px;
 //
 // Settings for the `<body>` element.
 
-$body-bg:    #fff;
+$body-bg:    #90EE90; //#fff;
 $body-color: $gray-dark;
 
 
@@ -74,7 +74,7 @@ $link-hover-decoration: underline;
 
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $font-family-serif:      Georgia, "Times New Roman", Times, serif;
-$font-family-base:       $font-family-sans-serif;
+$font-family-base:       $font-family-serif; //$font-family-sans-serif;
 
 // Pixel value used to responsively scale all typography. Applied to the `<html>` element.
 $font-size-root: 16px;

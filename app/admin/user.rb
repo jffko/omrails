@@ -23,6 +23,8 @@ ActiveAdmin.register User do
 		f.actions
 	end
 
+# this section selects which columns are displayed in the admin user area
+
 	index do 
 		id_column
 		column :email

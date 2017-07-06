@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :vinyls
   resources :tweets
   ActiveAdmin.routes(self)
   devise_for :users

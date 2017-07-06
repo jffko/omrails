@@ -4,6 +4,6 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :rememberable, :trackable, :validatable
   
-  has_many :tweets
+  has_many :tweets #, :vinyls  #added vinyls
 
 end

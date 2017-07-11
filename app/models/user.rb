@@ -5,5 +5,6 @@ class User < ApplicationRecord
          :rememberable, :trackable, :validatable
   
   has_many :tweets #, :vinyls  #added vinyls
+  has_many :items
 
 end

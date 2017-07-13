@@ -41,6 +41,8 @@ gem 'jquery-rails'
 gem 'devise'
 # set up admin section using Active Admin
 gem 'activeadmin'
+gem 'acts_as_follower', github: "tcocca/acts_as_follower"
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

@@ -42,6 +42,7 @@ gem 'devise'
 # set up admin section using Active Admin
 gem 'activeadmin'
 gem 'acts_as_follower', github: "tcocca/acts_as_follower"
+gem 'acts_as_votable', '~> 0.10.0'
 
 
 group :development, :test do

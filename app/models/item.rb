@@ -3,4 +3,6 @@ class Item < ApplicationRecord
 
   validates :user, presence: true
 
+  acts_as_votable
+
 end
